@@ -2,12 +2,12 @@ name: hourly-taxi-demadn-feature-pipeline
 
 on:
   schedule:
-    -cron:'0 * * * *'
+    - cron:'0 * * * *'
 
 jobs:
 
   feature_pipeline:
-  
+
     runs-on: ubuntu-latest
 
     steps:
