@@ -4,8 +4,8 @@ on:
   schedule:
    - cron: '0 * * * *'
 
-  workflow_dispath:
-  
+  workflow_dispatch:
+
 jobs:
 
   feature_pipeline:
